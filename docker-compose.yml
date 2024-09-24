@@ -79,7 +79,7 @@ services:
       - nebra:/var/nebra
 
   diagnostics:
-    image: nebraltd/hm-diag:arm64-bac451c
+    image: elsdbs/my-hw-diag:0.0.1
     depends_on:
       - dbus-session
     environment:
